@@ -22,7 +22,7 @@ st.set_page_config(page_title="NASA IMAGE OF THE DAY", layout="centered")
 st.title("NASA IMAGE OF THE DAY")
 st.subheader("FEAST YOUR EYES")
 
-image = st.image("/Users/jsp/Library/Mobile Documents/com~apple~CloudDocs/"
-                 "1 PROGRAMI/WebPageWithAnImage/2025-11-25.jpg")
+image_path = os.getenv("IMAGE_PATH")
+image = st.image(image_path)
 
 st.write(explanation)

@@ -42,9 +42,10 @@ You can install them using the `requirements.txt` file.
     pip install -r requirements.txt
     ```
 5.  **Create a `.env` file:**
-    Create a file named `.env` in the root of the project and add your NASA API key:
+    Create a file named `.env` in the root of the project and add your NASA API key and the path to the image:
     ```
     NASA_API=your_nasa_api_key
+    IMAGE_PATH=path_to_your_image/yyyy-mm-dd.jpg
     ```
     You can get a free API key from the [NASA API website](https://api.nasa.gov/).
 
